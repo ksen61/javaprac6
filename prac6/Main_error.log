@@ -1,0 +1,11 @@
+[Main] [ERROR] Сделан неверный выбор: 0
+[Main] [ERROR] Сделан неверный выбор: 0
+[Main] [ERROR] Сделан неверный выбор: 4
+[Main] [ERROR] Ошибка в ChoiseBreakFast: java.util.InputMismatchException
+[Main] [ERROR] Ошибка в SmenaCameri: java.util.InputMismatchException
+[Main] [ERROR] Сделан неверный выбор: 0
+[Main] [ERROR] Ошибка в ExitJailBreak: java.util.InputMismatchException
+[Main] [ERROR] В ExitJailBreak сделан неверный выбор: 4
+[Main] [ERROR] Ошибка в ExitJailBreak: java.util.InputMismatchException
+[M[Main] [ERROR] Сделан неверный выбор койки: 4
+[Main] [ERROR] Ошибка в sleep: java.util.InputMismatchException
