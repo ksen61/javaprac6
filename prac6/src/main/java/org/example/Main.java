@@ -18,32 +18,41 @@ public class Main {
 
                 switch (choice) {
                     case 1:
+                        logger.logInfo("Выбрали функцию");
                         jail.ChoiseBreakFast();
                         break;
                     case 2:
+                        logger.logInfo("Выбрали функцию");
                         jail.NameJail();
                         break;
                     case 3:
+                        logger.logInfo("Выбрали функцию");
                         jail.SmenaCameri();
                         break;
                     case 4:
+                        logger.logInfo("Выбрали функцию");
                         jail.ExitJailBreak();
                         break;
                     case 5:
+                        logger.logInfo("Выбрали функцию");
                         jail.AmountInCamera();
                         break;
                     case 6:
+                        logger.logInfo("Выбрали функцию");
                         jail.Info();
                         break;
                     case 7:
+                        logger.logInfo("Выбрали функцию");
                         jail.DrinkTea();
                         break;
                     case 8:
+                        logger.logInfo("Выбрали функцию");
                         jail.sleep();
                         break;
                     case 9:
-                        jail.closeLog(); // Закрытие лога перед выходом
-                        logger.logInfo("Программа завершена"); // Логирование выхода из программы
+                        logger.logInfo("Выбрали функцию");
+                        logger.logInfo("Программа завершена");
+                        jail.closeLog(); 
                         System.exit(0);
                         break;
                     default:
@@ -51,7 +60,7 @@ public class Main {
                         System.out.println("Вы выбрали несуществующую функцию!");
                 }
             } catch (Exception e) {
-                logger.logError("Ошибка: " + e);
+                logger.logError("Ошибка в Main: " + e);
             }
         }
     }
